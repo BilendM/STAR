@@ -12,10 +12,15 @@ dist/
 build/
 *.egg-info/
 
+data/
+
 # Virtual environments
 venv/
 env/
 
+
+exp/
+exp-*/
 
 # MacOS
 *DS_Store*
@@ -44,7 +49,6 @@ git-add-commit.sh
 # custom
 # data/*
 !data/FLAME_masks/FLAME.obj
-exp/
 */fbx-python-sdk/
 .vscode
 .idea
