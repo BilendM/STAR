@@ -44,7 +44,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--opt_path", type=str, help="Opt path", default="checkpoints/t2m/t2m_motiondiffuse/opt.txt")
     parser.add_argument(
-        "--text", type=str, default="a person is jumping", help="Text description for motion generation"
+        "--text", type=str, default="An animal is jumping", help="Text description for motion generation"
     )
     parser.add_argument("--motion_length", type=int, default=60, help="Number of frames for motion generation")
     parser.add_argument("--result_path", type=str, default="test_sample.gif", help="Path to save generation result")
@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
 # python -u visualization.py \
 #     --opt_path checkpoints/t2m/t2m_motiondiffuse/opt.txt \
-#     --text "a person is jumping" \
+#     --text "An animal is jumping" \
 #     --motion_length 60 \
 #     --result_path "test_sample.gif" \
 #     --npy_path "test_sample.npy" \
@@ -101,10 +101,10 @@ if __name__ == "__main__":
 
 # 196 at max
 # the man throw a punch with each hand
-# python visualization.py --text "a person is dancing happily with hands intersected with each other" --motion_length 196
+# python visualization.py --text "An animal is dancing happily with hands intersected with each other" --motion_length 196
 
-# python visualization.py --text "a person is practicing karate kicks" --motion_length 196
+# python visualization.py --text "An animal is practicing karate kicks" --motion_length 196
 
-# python visualization.py --text "a person is throwing a punch with each hand and raise an arm over his head" --motion_length 196
+# python visualization.py --text "An animal is throwing a punch with each hand and raise an arm over his head" --motion_length 196
 
-# python visualization.py --text "A person is dancing happily with arms intersected" --motion_length 196
+# python visualization.py --text "An animal is dancing happily with arms intersected" --motion_length 196

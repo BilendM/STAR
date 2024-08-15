@@ -510,10 +510,10 @@ if __name__ == "__main__":
     text_split = cfg.text.split(", he/she")
     if len(text_split) == 1:
         OBJ_TEXT = text_split[0]
-        MOTION_TEXT = "A person is dancing."
+        MOTION_TEXT = "An animal is dancing."
     else:
         OBJ_TEXT, MOTION_TEXT = text_split[0], text_split[1]
-        MOTION_TEXT = "A person" + MOTION_TEXT
+        MOTION_TEXT = "An animal" + MOTION_TEXT
 
     EXP_DESCRIPTION = args.description
 

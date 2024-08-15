@@ -48,8 +48,8 @@ requirements = (CUDAGlobalMemoryMb > 4500)
 # Resources
 request_GPUs     = 1
 # this needs to be specified for the AI@Surrey cluster if requesting a GPU
-+GPUMem          = 42000
-request_CPUs   = 3
++GPUMem          = 40000
+request_CPUs   = 2
 # tailor the number of CPUs to your needs - check epoch time or GPU power usage via 
 # https://wandb.ai/site to know that you're not staving the GPU
 request_memory   = 12G

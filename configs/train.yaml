@@ -11,7 +11,7 @@ model:
 training:
   anneal_tex_reso: True
   train_face_ratio: 0.3
-  iters: 15000
+  iters: 800
   ckpt: scratch
 data:
   phi_range: [-180, 180]

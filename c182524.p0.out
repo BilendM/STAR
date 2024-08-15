@@ -1,0 +1,37 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 12.1.1
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+load weight from: /scratch/condor/dir_3022904/externals/R2ET/pretrain/shape_aware.pt
+Reading ./data/t2m/t2m_motiondiffuse/opt.txt
+unet from config
+controlnet unet from config
+[INFO] Trainer: demo | 2024-08-15_03-10-37 | cuda | fp32 | ./exp/demo/A pink 
+pig/pigrabbit
+[INFO] #parameters: 12609473
+[INFO] Training from scratch ...
+==> Start Training ./exp/demo/A pink pig/pigrabbit Epoch 1, lr=0.050000 ...
+load checkpoint from http path: https://openmmlab-share.oss-cn-hangzhou.aliyuncs.com/mmhuman3d/models/smoothnet/smoothnet_windowsize8.pth.tar?versionId=CAEQPhiBgMDo0s7shhgiIDgzNTRmNWM2ZWEzYTQyYzRhNzUwYTkzZWZkMmU5MWEw
+==> Finished Epoch 1.
+++> Evaluate ./exp/demo/A pink pig/pigrabbit at epoch 1 ...
+++> Evaluate epoch 1 Finished.
+[INFO] training takes 2.8484 minutes.
+==> Start Test, save results to ./exp/demo/A pink pig/pigrabbit/results
+==> Finished Test.
+==> Start Test, save results to ./exp/demo/A pink pig/pigrabbit/results
+load checkpoint from http path: https://openmmlab-share.oss-cn-hangzhou.aliyuncs.com/mmhuman3d/models/smoothnet/smoothnet_windowsize8.pth.tar?versionId=CAEQPhiBgMDo0s7shhgiIDgzNTRmNWM2ZWEzYTQyYzRhNzUwYTkzZWZkMmU5MWEw
+save motion
+==> Finished Test.
+==> Saving mesh to ./exp/demo/A pink pig/pigrabbit/mesh
+==> Finished saving mesh.

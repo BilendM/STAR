@@ -49,10 +49,10 @@ if __name__ == "__main__":
     text_split = cfg.text.split(", he/she")
     if len(text_split) == 1:
         object_text = text_split[0]
-        motion_text = "A person is dancing."
+        motion_text = "An animal is dancing."
     else:
         object_text, motion_text = text_split[0], text_split[1]
-        motion_text = "A person" + motion_text
+        motion_text = "An animal" + motion_text
 
     model = DLMesh(cfg.model, text_prompt=motion_text, t2m_model=args.t2m_model)
 

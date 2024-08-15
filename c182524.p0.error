@@ -1,0 +1,1146 @@
+/workspace/miniconda3/envs/star/lib/python3.10/site-packages/mmcv/__init__.py:20: UserWarning: On January 1, 2023, MMCV will release v2.0.0, in which it will remove components related to the training process and add a data transformation module. In addition, it will rename the package names mmcv to mmcv-lite and mmcv-full to mmcv. See https://github.com/open-mmlab/mmcv/blob/master/docs/en/compatibility.md for more details.
+  warnings.warn(
+/scratch/condor/dir_3022904/./externals/R2ET/retarget_interface.py:389: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  self.register_buffer("joint_maps", torch.tensor(joint_maps, dtype=torch.long))
+  0%|          | 0/1000 [00:00<?, ?it/s]  1%|          | 11/1000 [00:00<00:09, 100.86it/s]  2%|▏         | 22/1000 [00:00<00:09, 99.52it/s]   3%|▎         | 32/1000 [00:00<00:09, 99.35it/s]  4%|▍         | 43/1000 [00:00<00:09, 100.53it/s]  5%|▌         | 54/1000 [00:00<00:09, 101.07it/s]  6%|▋         | 65/1000 [00:00<00:09, 101.76it/s]  8%|▊         | 76/1000 [00:00<00:09, 102.20it/s]  9%|▊         | 87/1000 [00:00<00:08, 102.60it/s] 10%|▉         | 98/1000 [00:00<00:08, 102.81it/s] 11%|█         | 109/1000 [00:01<00:08, 102.80it/s] 12%|█▏        | 120/1000 [00:01<00:08, 100.95it/s] 13%|█▎        | 131/1000 [00:01<00:08, 101.09it/s] 14%|█▍        | 142/1000 [00:01<00:08, 101.29it/s] 15%|█▌        | 153/1000 [00:01<00:08, 101.52it/s] 16%|█▋        | 164/1000 [00:01<00:08, 101.70it/s] 18%|█▊        | 175/1000 [00:01<00:08, 101.66it/s] 19%|█▊        | 186/1000 [00:01<00:08, 101.43it/s] 20%|█▉        | 197/1000 [00:01<00:07, 100.82it/s] 21%|██        | 208/1000 [00:02<00:07, 101.19it/s] 22%|██▏       | 219/1000 [00:02<00:07, 101.36it/s] 23%|██▎       | 230/1000 [00:02<00:07, 100.94it/s] 24%|██▍       | 241/1000 [00:02<00:07, 100.95it/s] 25%|██▌       | 252/1000 [00:02<00:07, 101.14it/s] 26%|██▋       | 263/1000 [00:02<00:07, 100.68it/s] 27%|██▋       | 274/1000 [00:02<00:07, 100.24it/s] 28%|██▊       | 285/1000 [00:02<00:07, 99.94it/s]  30%|██▉       | 296/1000 [00:02<00:06, 100.68it/s] 31%|███       | 307/1000 [00:03<00:06, 100.16it/s] 32%|███▏      | 318/1000 [00:03<00:06, 101.01it/s] 33%|███▎      | 329/1000 [00:03<00:06, 101.59it/s] 34%|███▍      | 340/1000 [00:03<00:06, 102.11it/s] 35%|███▌      | 351/1000 [00:03<00:06, 102.54it/s] 36%|███▌      | 362/1000 [00:03<00:06, 102.19it/s] 37%|███▋      | 373/1000 [00:03<00:06, 102.63it/s] 38%|███▊      | 384/1000 [00:03<00:05, 102.93it/s] 40%|███▉      | 395/1000 [00:03<00:05, 103.16it/s] 41%|████      | 406/1000 [00:03<00:05, 103.26it/s] 42%|████▏     | 417/1000 [00:04<00:05, 103.32it/s] 43%|████▎     | 428/1000 [00:04<00:05, 103.44it/s] 44%|████▍     | 439/1000 [00:04<00:05, 102.79it/s] 45%|████▌     | 450/1000 [00:04<00:05, 102.91it/s] 46%|████▌     | 461/1000 [00:04<00:05, 103.12it/s] 47%|████▋     | 472/1000 [00:04<00:05, 102.86it/s] 48%|████▊     | 483/1000 [00:04<00:05, 102.76it/s] 49%|████▉     | 494/1000 [00:04<00:04, 102.69it/s] 50%|█████     | 505/1000 [00:04<00:04, 102.55it/s] 52%|█████▏    | 516/1000 [00:05<00:04, 102.48it/s] 53%|█████▎    | 527/1000 [00:05<00:04, 102.48it/s] 54%|█████▍    | 538/1000 [00:05<00:04, 102.61it/s] 55%|█████▍    | 549/1000 [00:05<00:04, 102.65it/s] 56%|█████▌    | 560/1000 [00:05<00:04, 102.74it/s] 57%|█████▋    | 571/1000 [00:05<00:04, 102.69it/s] 58%|█████▊    | 582/1000 [00:05<00:04, 102.58it/s] 59%|█████▉    | 593/1000 [00:05<00:03, 102.52it/s] 60%|██████    | 604/1000 [00:05<00:03, 102.48it/s] 62%|██████▏   | 615/1000 [00:06<00:03, 102.41it/s] 63%|██████▎   | 626/1000 [00:06<00:03, 102.30it/s] 64%|██████▎   | 637/1000 [00:06<00:03, 102.27it/s] 65%|██████▍   | 648/1000 [00:06<00:03, 102.26it/s] 66%|██████▌   | 659/1000 [00:06<00:03, 101.90it/s] 67%|██████▋   | 670/1000 [00:06<00:03, 101.71it/s] 68%|██████▊   | 681/1000 [00:06<00:03, 101.85it/s] 69%|██████▉   | 692/1000 [00:06<00:03, 102.39it/s] 70%|███████   | 703/1000 [00:06<00:02, 102.81it/s] 71%|███████▏  | 714/1000 [00:06<00:02, 103.01it/s] 72%|███████▎  | 725/1000 [00:07<00:02, 103.17it/s] 74%|███████▎  | 736/1000 [00:07<00:02, 103.28it/s] 75%|███████▍  | 747/1000 [00:07<00:02, 103.05it/s] 76%|███████▌  | 758/1000 [00:07<00:02, 103.19it/s] 77%|███████▋  | 769/1000 [00:07<00:02, 103.42it/s] 78%|███████▊  | 780/1000 [00:07<00:02, 103.61it/s] 79%|███████▉  | 791/1000 [00:07<00:02, 103.50it/s] 80%|████████  | 802/1000 [00:07<00:01, 103.06it/s] 81%|████████▏ | 813/1000 [00:07<00:01, 102.48it/s] 82%|████████▏ | 824/1000 [00:08<00:01, 102.40it/s] 84%|████████▎ | 835/1000 [00:08<00:01, 102.29it/s] 85%|████████▍ | 846/1000 [00:08<00:01, 102.33it/s] 86%|████████▌ | 857/1000 [00:08<00:01, 102.35it/s] 87%|████████▋ | 868/1000 [00:08<00:01, 102.22it/s] 88%|████████▊ | 879/1000 [00:08<00:01, 100.86it/s] 89%|████████▉ | 890/1000 [00:08<00:01, 100.75it/s] 90%|█████████ | 901/1000 [00:08<00:00, 101.26it/s] 91%|█████████ | 912/1000 [00:08<00:00, 101.56it/s] 92%|█████████▏| 923/1000 [00:09<00:00, 101.89it/s] 93%|█████████▎| 934/1000 [00:09<00:00, 102.07it/s] 94%|█████████▍| 945/1000 [00:09<00:00, 102.12it/s] 96%|█████████▌| 956/1000 [00:09<00:00, 101.90it/s] 97%|█████████▋| 967/1000 [00:09<00:00, 101.58it/s] 98%|█████████▊| 978/1000 [00:09<00:00, 101.80it/s] 99%|█████████▉| 989/1000 [00:09<00:00, 102.10it/s]100%|██████████| 1000/1000 [00:09<00:00, 102.20it/s]100%|██████████| 1000/1000 [00:09<00:00, 102.07it/s]
+/workspace/miniconda3/envs/star/lib/python3.10/site-packages/transformers/utils/hub.py:123: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+config.json:   0%|          | 0.00/920 [00:00<?, ?B/s]config.json: 100%|██████████| 920/920 [00:00<00:00, 6.47MB/s]
+diffusion_pytorch_model.safetensors:   0%|          | 0.00/1.45G [00:00<?, ?B/s]diffusion_pytorch_model.safetensors:   1%|          | 10.5M/1.45G [00:00<01:33, 15.3MB/s]diffusion_pytorch_model.safetensors:   1%|▏         | 21.0M/1.45G [00:00<00:55, 25.8MB/s]diffusion_pytorch_model.safetensors:   2%|▏         | 31.5M/1.45G [00:01<00:40, 34.9MB/s]diffusion_pytorch_model.safetensors:   3%|▎         | 41.9M/1.45G [00:01<00:35, 39.1MB/s]diffusion_pytorch_model.safetensors:   4%|▎         | 52.4M/1.45G [00:01<00:33, 42.1MB/s]diffusion_pytorch_model.safetensors:   4%|▍         | 62.9M/1.45G [00:01<00:29, 46.7MB/s]diffusion_pytorch_model.safetensors:   5%|▌         | 73.4M/1.45G [00:01<00:29, 47.2MB/s]diffusion_pytorch_model.safetensors:   6%|▌         | 83.9M/1.45G [00:02<00:26, 50.7MB/s]diffusion_pytorch_model.safetensors:   7%|▋         | 94.4M/1.45G [00:02<00:27, 49.9MB/s]diffusion_pytorch_model.safetensors:   7%|▋         | 105M/1.45G [00:02<00:27, 49.4MB/s] diffusion_pytorch_model.safetensors:   8%|▊         | 115M/1.45G [00:02<00:25, 52.3MB/s]diffusion_pytorch_model.safetensors:   9%|▊         | 126M/1.45G [00:02<00:25, 51.2MB/s]diffusion_pytorch_model.safetensors:   9%|▉         | 136M/1.45G [00:03<00:25, 50.4MB/s]diffusion_pytorch_model.safetensors:  10%|█         | 147M/1.45G [00:03<00:24, 53.1MB/s]diffusion_pytorch_model.safetensors:  11%|█         | 157M/1.45G [00:03<00:24, 51.5MB/s]diffusion_pytorch_model.safetensors:  12%|█▏        | 168M/1.45G [00:03<00:23, 53.7MB/s]diffusion_pytorch_model.safetensors:  12%|█▏        | 178M/1.45G [00:03<00:24, 52.0MB/s]diffusion_pytorch_model.safetensors:  13%|█▎        | 189M/1.45G [00:04<00:24, 50.9MB/s]diffusion_pytorch_model.safetensors:  14%|█▍        | 199M/1.45G [00:04<00:23, 53.4MB/s]diffusion_pytorch_model.safetensors:  15%|█▍        | 210M/1.45G [00:04<00:23, 51.9MB/s]diffusion_pytorch_model.safetensors:  15%|█▌        | 220M/1.45G [00:04<00:22, 54.5MB/s]diffusion_pytorch_model.safetensors:  16%|█▌        | 231M/1.45G [00:04<00:23, 52.4MB/s]diffusion_pytorch_model.safetensors:  17%|█▋        | 241M/1.45G [00:05<00:23, 51.2MB/s]diffusion_pytorch_model.safetensors:  17%|█▋        | 252M/1.45G [00:05<00:22, 53.7MB/s]diffusion_pytorch_model.safetensors:  18%|█▊        | 262M/1.45G [00:05<00:22, 52.0MB/s]diffusion_pytorch_model.safetensors:  19%|█▉        | 273M/1.45G [00:05<00:23, 50.8MB/s]diffusion_pytorch_model.safetensors:  20%|█▉        | 283M/1.45G [00:05<00:21, 53.4MB/s]diffusion_pytorch_model.safetensors:  20%|██        | 294M/1.45G [00:06<00:22, 51.9MB/s]diffusion_pytorch_model.safetensors:  21%|██        | 304M/1.45G [00:06<00:21, 54.2MB/s]diffusion_pytorch_model.safetensors:  22%|██▏       | 315M/1.45G [00:06<00:21, 52.6MB/s]diffusion_pytorch_model.safetensors:  22%|██▏       | 325M/1.45G [00:06<00:21, 51.3MB/s]diffusion_pytorch_model.safetensors:  23%|██▎       | 336M/1.45G [00:06<00:20, 53.7MB/s]diffusion_pytorch_model.safetensors:  24%|██▍       | 346M/1.45G [00:07<00:23, 45.9MB/s]diffusion_pytorch_model.safetensors:  25%|██▍       | 357M/1.45G [00:07<00:23, 46.3MB/s]diffusion_pytorch_model.safetensors:  25%|██▌       | 367M/1.45G [00:07<00:23, 46.2MB/s]diffusion_pytorch_model.safetensors:  26%|██▌       | 377M/1.45G [00:07<00:21, 49.6MB/s]diffusion_pytorch_model.safetensors:  27%|██▋       | 388M/1.45G [00:08<00:21, 49.2MB/s]diffusion_pytorch_model.safetensors:  28%|██▊       | 398M/1.45G [00:08<00:21, 48.9MB/s]diffusion_pytorch_model.safetensors:  28%|██▊       | 409M/1.45G [00:08<00:20, 51.8MB/s]diffusion_pytorch_model.safetensors:  29%|██▉       | 419M/1.45G [00:08<00:20, 50.6MB/s]diffusion_pytorch_model.safetensors:  30%|██▉       | 430M/1.45G [00:08<00:20, 49.8MB/s]diffusion_pytorch_model.safetensors:  30%|███       | 440M/1.45G [00:09<00:19, 52.5MB/s]diffusion_pytorch_model.safetensors:  31%|███       | 451M/1.45G [00:09<00:19, 51.2MB/s]diffusion_pytorch_model.safetensors:  32%|███▏      | 461M/1.45G [00:09<00:19, 50.3MB/s]diffusion_pytorch_model.safetensors:  33%|███▎      | 472M/1.45G [00:09<00:18, 52.5MB/s]diffusion_pytorch_model.safetensors:  33%|███▎      | 482M/1.45G [00:09<00:18, 51.1MB/s]diffusion_pytorch_model.safetensors:  34%|███▍      | 493M/1.45G [00:10<00:19, 50.1MB/s]diffusion_pytorch_model.safetensors:  35%|███▍      | 503M/1.45G [00:10<00:17, 52.7MB/s]diffusion_pytorch_model.safetensors:  36%|███▌      | 514M/1.45G [00:10<00:18, 51.1MB/s]diffusion_pytorch_model.safetensors:  36%|███▋      | 524M/1.45G [00:10<00:17, 53.5MB/s]diffusion_pytorch_model.safetensors:  37%|███▋      | 535M/1.45G [00:10<00:17, 51.7MB/s]diffusion_pytorch_model.safetensors:  38%|███▊      | 545M/1.45G [00:11<00:17, 50.6MB/s]diffusion_pytorch_model.safetensors:  38%|███▊      | 556M/1.45G [00:11<00:16, 53.1MB/s]diffusion_pytorch_model.safetensors:  39%|███▉      | 566M/1.45G [00:11<00:17, 51.5MB/s]diffusion_pytorch_model.safetensors:  40%|███▉      | 577M/1.45G [00:11<00:17, 50.6MB/s]diffusion_pytorch_model.safetensors:  41%|████      | 587M/1.45G [00:11<00:16, 53.3MB/s]diffusion_pytorch_model.safetensors:  41%|████▏     | 598M/1.45G [00:12<00:16, 51.8MB/s]diffusion_pytorch_model.safetensors:  42%|████▏     | 608M/1.45G [00:12<00:15, 54.1MB/s]diffusion_pytorch_model.safetensors:  43%|████▎     | 619M/1.45G [00:12<00:15, 52.1MB/s]diffusion_pytorch_model.safetensors:  44%|████▎     | 629M/1.45G [00:12<00:16, 50.9MB/s]diffusion_pytorch_model.safetensors:  44%|████▍     | 640M/1.45G [00:12<00:15, 53.4MB/s]diffusion_pytorch_model.safetensors:  45%|████▍     | 650M/1.45G [00:13<00:15, 51.7MB/s]diffusion_pytorch_model.safetensors:  46%|████▌     | 661M/1.45G [00:13<00:15, 50.6MB/s]diffusion_pytorch_model.safetensors:  46%|████▋     | 671M/1.45G [00:13<00:14, 53.0MB/s]diffusion_pytorch_model.safetensors:  47%|████▋     | 682M/1.45G [00:13<00:14, 51.3MB/s]diffusion_pytorch_model.safetensors:  48%|████▊     | 692M/1.45G [00:13<00:14, 50.4MB/s]diffusion_pytorch_model.safetensors:  49%|████▊     | 703M/1.45G [00:14<00:14, 52.9MB/s]diffusion_pytorch_model.safetensors:  49%|████▉     | 713M/1.45G [00:14<00:14, 51.5MB/s]diffusion_pytorch_model.safetensors:  50%|█████     | 724M/1.45G [00:14<00:13, 53.8MB/s]diffusion_pytorch_model.safetensors:  51%|█████     | 734M/1.45G [00:14<00:13, 52.1MB/s]diffusion_pytorch_model.safetensors:  52%|█████▏    | 744M/1.45G [00:14<00:13, 51.0MB/s]diffusion_pytorch_model.safetensors:  52%|█████▏    | 755M/1.45G [00:15<00:12, 53.4MB/s]diffusion_pytorch_model.safetensors:  53%|█████▎    | 765M/1.45G [00:15<00:13, 51.7MB/s]diffusion_pytorch_model.safetensors:  54%|█████▎    | 776M/1.45G [00:15<00:13, 50.4MB/s]diffusion_pytorch_model.safetensors:  54%|█████▍    | 786M/1.45G [00:15<00:12, 52.9MB/s]diffusion_pytorch_model.safetensors:  55%|█████▌    | 797M/1.45G [00:15<00:12, 51.4MB/s]diffusion_pytorch_model.safetensors:  56%|█████▌    | 807M/1.45G [00:16<00:12, 50.4MB/s]diffusion_pytorch_model.safetensors:  57%|█████▋    | 818M/1.45G [00:16<00:11, 53.0MB/s]diffusion_pytorch_model.safetensors:  57%|█████▋    | 828M/1.45G [00:16<00:12, 51.3MB/s]diffusion_pytorch_model.safetensors:  58%|█████▊    | 839M/1.45G [00:16<00:11, 53.2MB/s]diffusion_pytorch_model.safetensors:  59%|█████▉    | 849M/1.45G [00:16<00:11, 51.4MB/s]diffusion_pytorch_model.safetensors:  59%|█████▉    | 860M/1.45G [00:17<00:11, 50.5MB/s]diffusion_pytorch_model.safetensors:  60%|██████    | 870M/1.45G [00:17<00:11, 49.8MB/s]diffusion_pytorch_model.safetensors:  61%|██████    | 881M/1.45G [00:17<00:10, 52.4MB/s]diffusion_pytorch_model.safetensors:  62%|██████▏   | 891M/1.45G [00:17<00:10, 51.2MB/s]diffusion_pytorch_model.safetensors:  62%|██████▏   | 902M/1.45G [00:17<00:10, 53.6MB/s]diffusion_pytorch_model.safetensors:  63%|██████▎   | 912M/1.45G [00:18<00:10, 51.9MB/s]diffusion_pytorch_model.safetensors:  64%|██████▍   | 923M/1.45G [00:18<00:10, 50.7MB/s]diffusion_pytorch_model.safetensors:  65%|██████▍   | 933M/1.45G [00:18<00:09, 53.2MB/s]diffusion_pytorch_model.safetensors:  65%|██████▌   | 944M/1.45G [00:18<00:09, 51.8MB/s]diffusion_pytorch_model.safetensors:  66%|██████▌   | 954M/1.45G [00:18<00:09, 50.7MB/s]diffusion_pytorch_model.safetensors:  67%|██████▋   | 965M/1.45G [00:19<00:09, 53.2MB/s]diffusion_pytorch_model.safetensors:  67%|██████▋   | 975M/1.45G [00:19<00:09, 51.8MB/s]diffusion_pytorch_model.safetensors:  68%|██████▊   | 986M/1.45G [00:19<00:08, 53.9MB/s]diffusion_pytorch_model.safetensors:  69%|██████▉   | 996M/1.45G [00:19<00:08, 52.3MB/s]diffusion_pytorch_model.safetensors:  70%|██████▉   | 1.01G/1.45G [00:19<00:08, 51.1MB/s]diffusion_pytorch_model.safetensors:  70%|███████   | 1.02G/1.45G [00:20<00:08, 53.4MB/s]diffusion_pytorch_model.safetensors:  71%|███████   | 1.03G/1.45G [00:20<00:08, 51.8MB/s]diffusion_pytorch_model.safetensors:  72%|███████▏  | 1.04G/1.45G [00:20<00:08, 50.7MB/s]diffusion_pytorch_model.safetensors:  73%|███████▎  | 1.05G/1.45G [00:20<00:07, 53.1MB/s]diffusion_pytorch_model.safetensors:  73%|███████▎  | 1.06G/1.45G [00:20<00:07, 51.7MB/s]diffusion_pytorch_model.safetensors:  74%|███████▍  | 1.07G/1.45G [00:21<00:06, 53.9MB/s]diffusion_pytorch_model.safetensors:  75%|███████▍  | 1.08G/1.45G [00:21<00:07, 52.1MB/s]diffusion_pytorch_model.safetensors:  75%|███████▌  | 1.09G/1.45G [00:21<00:06, 50.9MB/s]diffusion_pytorch_model.safetensors:  76%|███████▌  | 1.10G/1.45G [00:21<00:06, 53.4MB/s]diffusion_pytorch_model.safetensors:  77%|███████▋  | 1.11G/1.45G [00:21<00:06, 51.7MB/s]diffusion_pytorch_model.safetensors:  78%|███████▊  | 1.12G/1.45G [00:22<00:06, 50.6MB/s]diffusion_pytorch_model.safetensors:  78%|███████▊  | 1.13G/1.45G [00:22<00:05, 53.1MB/s]diffusion_pytorch_model.safetensors:  79%|███████▉  | 1.14G/1.45G [00:22<00:05, 51.5MB/s]diffusion_pytorch_model.safetensors:  80%|███████▉  | 1.15G/1.45G [00:22<00:05, 50.6MB/s]diffusion_pytorch_model.safetensors:  81%|████████  | 1.16G/1.45G [00:22<00:05, 53.2MB/s]diffusion_pytorch_model.safetensors:  81%|████████▏ | 1.17G/1.45G [00:23<00:05, 51.7MB/s]diffusion_pytorch_model.safetensors:  82%|████████▏ | 1.18G/1.45G [00:23<00:05, 50.4MB/s]diffusion_pytorch_model.safetensors:  83%|████████▎ | 1.20G/1.45G [00:23<00:04, 53.0MB/s]diffusion_pytorch_model.safetensors:  83%|████████▎ | 1.21G/1.45G [00:23<00:04, 51.3MB/s]diffusion_pytorch_model.safetensors:  84%|████████▍ | 1.22G/1.45G [00:24<00:04, 50.4MB/s]diffusion_pytorch_model.safetensors:  85%|████████▍ | 1.23G/1.45G [00:24<00:04, 52.9MB/s]diffusion_pytorch_model.safetensors:  86%|████████▌ | 1.24G/1.45G [00:24<00:04, 51.4MB/s]diffusion_pytorch_model.safetensors:  86%|████████▋ | 1.25G/1.45G [00:24<00:03, 53.8MB/s]diffusion_pytorch_model.safetensors:  87%|████████▋ | 1.26G/1.45G [00:24<00:03, 52.1MB/s]diffusion_pytorch_model.safetensors:  88%|████████▊ | 1.27G/1.45G [00:25<00:03, 51.1MB/s]diffusion_pytorch_model.safetensors:  89%|████████▊ | 1.28G/1.45G [00:25<00:03, 53.5MB/s]diffusion_pytorch_model.safetensors:  89%|████████▉ | 1.29G/1.45G [00:25<00:03, 48.8MB/s]diffusion_pytorch_model.safetensors:  90%|████████▉ | 1.30G/1.45G [00:25<00:02, 48.4MB/s]diffusion_pytorch_model.safetensors:  91%|█████████ | 1.31G/1.45G [00:25<00:02, 48.2MB/s]diffusion_pytorch_model.safetensors:  91%|█████████▏| 1.32G/1.45G [00:26<00:02, 50.9MB/s]diffusion_pytorch_model.safetensors:  92%|█████████▏| 1.33G/1.45G [00:26<00:02, 49.3MB/s]diffusion_pytorch_model.safetensors:  93%|█████████▎| 1.34G/1.45G [00:26<00:02, 48.9MB/s]diffusion_pytorch_model.safetensors:  94%|█████████▎| 1.35G/1.45G [00:26<00:01, 51.8MB/s]diffusion_pytorch_model.safetensors:  94%|█████████▍| 1.36G/1.45G [00:26<00:01, 50.6MB/s]diffusion_pytorch_model.safetensors:  95%|█████████▌| 1.37G/1.45G [00:27<00:01, 49.6MB/s]diffusion_pytorch_model.safetensors:  96%|█████████▌| 1.38G/1.45G [00:27<00:01, 52.2MB/s]diffusion_pytorch_model.safetensors:  97%|█████████▋| 1.39G/1.45G [00:27<00:00, 50.9MB/s]diffusion_pytorch_model.safetensors:  97%|█████████▋| 1.41G/1.45G [00:27<00:00, 50.0MB/s]diffusion_pytorch_model.safetensors:  98%|█████████▊| 1.42G/1.45G [00:27<00:00, 52.7MB/s]diffusion_pytorch_model.safetensors:  99%|█████████▊| 1.43G/1.45G [00:28<00:00, 51.3MB/s]diffusion_pytorch_model.safetensors:  99%|█████████▉| 1.44G/1.45G [00:28<00:00, 53.7MB/s]diffusion_pytorch_model.safetensors: 100%|██████████| 1.45G/1.45G [00:28<00:00, 50.2MB/s]diffusion_pytorch_model.safetensors: 100%|██████████| 1.45G/1.45G [00:28<00:00, 50.7MB/s]
+model_index.json:   0%|          | 0.00/541 [00:00<?, ?B/s]model_index.json: 100%|██████████| 541/541 [00:00<00:00, 4.58MB/s]
+Fetching 13 files:   0%|          | 0/13 [00:00<?, ?it/s]
+model.safetensors:   0%|          | 0.00/492M [00:00<?, ?B/s][A
+
+(…)ature_extractor/preprocessor_config.json:   0%|          | 0.00/342 [00:00<?, ?B/s][A[A(…)ature_extractor/preprocessor_config.json: 100%|██████████| 342/342 [00:00<00:00, 1.93MB/s]
+Fetching 13 files:   8%|▊         | 1/13 [00:00<00:02,  4.34it/s]
+
+tokenizer/special_tokens_map.json:   0%|          | 0.00/472 [00:00<?, ?B/s][A[Atokenizer/special_tokens_map.json: 100%|██████████| 472/472 [00:00<00:00, 2.63MB/s]
+
+
+tokenizer/merges.txt:   0%|          | 0.00/525k [00:00<?, ?B/s][A[A
+
+
+text_encoder/config.json:   0%|          | 0.00/617 [00:00<?, ?B/s][A[A[Atext_encoder/config.json: 100%|██████████| 617/617 [00:00<00:00, 403kB/s]
+
+
+
+tokenizer/tokenizer_config.json:   0%|          | 0.00/806 [00:00<?, ?B/s][A[A[A
+
+
+
+tokenizer/vocab.json:   0%|          | 0.00/1.06M [00:00<?, ?B/s][A[A[A[Atokenizer/tokenizer_config.json: 100%|██████████| 806/806 [00:00<00:00, 763kB/s]
+
+
+
+scheduler/scheduler_config.json:   0%|          | 0.00/308 [00:00<?, ?B/s][A[A[Ascheduler/scheduler_config.json: 100%|██████████| 308/308 [00:00<00:00, 2.21MB/s]
+
+model.safetensors:   2%|▏         | 10.5M/492M [00:00<00:05, 90.7MB/s][A
+
+
+unet/config.json:   0%|          | 0.00/743 [00:00<?, ?B/s][A[A[Aunet/config.json: 100%|██████████| 743/743 [00:00<00:00, 6.22MB/s]
+
+
+
+diffusion_pytorch_model.safetensors:   0%|          | 0.00/335M [00:00<?, ?B/s][A[A[A
+
+
+
+
+vae/config.json:   0%|          | 0.00/547 [00:00<?, ?B/s][A[A[A[A[Avae/config.json: 100%|██████████| 547/547 [00:00<00:00, 4.36MB/s]
+
+
+
+
+
+diffusion_pytorch_model.safetensors:   0%|          | 0.00/3.44G [00:00<?, ?B/s][A[A[A[A[A
+
+tokenizer/merges.txt: 100%|██████████| 525k/525k [00:00<00:00, 2.15MB/s][A[Atokenizer/merges.txt: 100%|██████████| 525k/525k [00:00<00:00, 2.15MB/s]
+
+model.safetensors:   6%|▋         | 31.5M/492M [00:00<00:04, 101MB/s] [A
+
+
+
+tokenizer/vocab.json: 100%|██████████| 1.06M/1.06M [00:00<00:00, 3.17MB/s][A[A[A[Atokenizer/vocab.json: 100%|██████████| 1.06M/1.06M [00:00<00:00, 3.16MB/s]
+
+model.safetensors:   9%|▊         | 41.9M/492M [00:00<00:05, 88.6MB/s][A
+model.safetensors:  11%|█         | 52.4M/492M [00:00<00:05, 84.0MB/s][A
+
+
+diffusion_pytorch_model.safetensors:   3%|▎         | 10.5M/335M [00:00<00:13, 23.4MB/s][A[A[A
+model.safetensors:  13%|█▎        | 62.9M/492M [00:00<00:05, 78.2MB/s][A
+model.safetensors:  15%|█▍        | 73.4M/492M [00:00<00:05, 72.7MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   0%|          | 10.5M/3.44G [00:00<03:36, 15.8MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:   6%|▋         | 21.0M/335M [00:00<00:10, 28.8MB/s][A[A[A
+model.safetensors:  17%|█▋        | 83.9M/492M [00:01<00:05, 68.4MB/s][A
+model.safetensors:  19%|█▉        | 94.4M/492M [00:01<00:06, 64.8MB/s][A
+
+
+diffusion_pytorch_model.safetensors:   9%|▉         | 31.5M/335M [00:01<00:09, 31.8MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   1%|          | 21.0M/3.44G [00:01<02:55, 19.4MB/s][A[A[A[A[A
+model.safetensors:  21%|██▏       | 105M/492M [00:01<00:06, 60.9MB/s] [A
+
+
+diffusion_pytorch_model.safetensors:  13%|█▎        | 41.9M/335M [00:01<00:08, 33.2MB/s][A[A[A
+model.safetensors:  23%|██▎       | 115M/492M [00:01<00:06, 57.2MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   1%|          | 31.5M/3.44G [00:01<02:23, 23.7MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  16%|█▌        | 52.4M/335M [00:01<00:08, 34.8MB/s][A[A[A
+model.safetensors:  26%|██▌       | 126M/492M [00:01<00:06, 52.7MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   1%|          | 41.9M/3.44G [00:01<02:06, 26.8MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  19%|█▉        | 62.9M/335M [00:01<00:07, 36.3MB/s][A[A[A
+model.safetensors:  28%|██▊       | 136M/492M [00:02<00:07, 49.0MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   2%|▏         | 52.4M/3.44G [00:02<01:54, 29.5MB/s][A[A[A[A[A
+model.safetensors:  30%|██▉       | 147M/492M [00:02<00:07, 48.0MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  22%|██▏       | 73.4M/335M [00:02<00:07, 36.3MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   2%|▏         | 62.9M/3.44G [00:02<01:45, 31.9MB/s][A[A[A[A[A
+model.safetensors:  32%|███▏      | 157M/492M [00:02<00:07, 45.2MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  25%|██▌       | 83.9M/335M [00:02<00:06, 36.6MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   2%|▏         | 73.4M/3.44G [00:02<01:38, 34.1MB/s][A[A[A[A[A
+model.safetensors:  34%|███▍      | 168M/492M [00:02<00:07, 43.3MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  28%|██▊       | 94.4M/335M [00:02<00:06, 38.1MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   2%|▏         | 83.9M/3.44G [00:02<01:35, 35.1MB/s][A[A[A[A[A
+model.safetensors:  36%|███▌      | 178M/492M [00:03<00:07, 42.3MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  31%|███▏      | 105M/335M [00:02<00:05, 38.4MB/s] [A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   3%|▎         | 94.4M/3.44G [00:03<01:34, 35.6MB/s][A[A[A[A[A
+model.safetensors:  38%|███▊      | 189M/492M [00:03<00:07, 41.9MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  34%|███▍      | 115M/335M [00:03<00:05, 38.6MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   3%|▎         | 105M/3.44G [00:03<01:30, 37.0MB/s] [A[A[A[A[A
+model.safetensors:  40%|████      | 199M/492M [00:03<00:07, 40.3MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  38%|███▊      | 126M/335M [00:03<00:05, 38.6MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   3%|▎         | 115M/3.44G [00:03<01:27, 38.1MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  41%|████      | 136M/335M [00:03<00:05, 39.3MB/s][A[A[A
+model.safetensors:  43%|████▎     | 210M/492M [00:04<00:07, 38.4MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   4%|▎         | 126M/3.44G [00:03<01:22, 40.0MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  44%|████▍     | 147M/335M [00:04<00:04, 39.3MB/s][A[A[A
+model.safetensors:  45%|████▍     | 220M/492M [00:04<00:07, 37.4MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   4%|▍         | 136M/3.44G [00:04<01:20, 41.0MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  47%|████▋     | 157M/335M [00:04<00:04, 39.4MB/s][A[A[A
+model.safetensors:  47%|████▋     | 231M/492M [00:04<00:07, 37.1MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   4%|▍         | 147M/3.44G [00:04<01:20, 41.1MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  50%|█████     | 168M/335M [00:04<00:04, 39.0MB/s][A[A[A
+model.safetensors:  49%|████▉     | 241M/492M [00:04<00:06, 36.9MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   5%|▍         | 157M/3.44G [00:04<01:18, 41.8MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  53%|█████▎    | 178M/335M [00:04<00:04, 38.8MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   5%|▍         | 168M/3.44G [00:04<01:18, 41.5MB/s][A[A[A[A[A
+model.safetensors:  51%|█████     | 252M/492M [00:05<00:06, 36.5MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  56%|█████▋    | 189M/335M [00:05<00:03, 39.4MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   5%|▌         | 178M/3.44G [00:05<01:21, 40.0MB/s][A[A[A[A[A
+model.safetensors:  53%|█████▎    | 262M/492M [00:05<00:06, 37.5MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  60%|█████▉    | 199M/335M [00:05<00:03, 39.4MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   5%|▌         | 189M/3.44G [00:05<01:20, 40.4MB/s][A[A[A[A[A
+model.safetensors:  55%|█████▌    | 273M/492M [00:05<00:05, 38.2MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  63%|██████▎   | 210M/335M [00:05<00:03, 38.5MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   6%|▌         | 199M/3.44G [00:05<01:21, 39.9MB/s][A[A[A[A[A
+model.safetensors:  58%|█████▊    | 283M/492M [00:05<00:05, 38.6MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  66%|██████▌   | 220M/335M [00:05<00:02, 38.6MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   6%|▌         | 210M/3.44G [00:05<01:21, 39.5MB/s][A[A[A[A[A
+model.safetensors:  60%|█████▉    | 294M/492M [00:06<00:05, 38.7MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  69%|██████▉   | 231M/335M [00:06<00:02, 38.5MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   6%|▋         | 220M/3.44G [00:06<01:21, 39.6MB/s][A[A[A[A[A
+model.safetensors:  62%|██████▏   | 304M/492M [00:06<00:04, 39.2MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  72%|███████▏  | 241M/335M [00:06<00:02, 38.4MB/s][A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:   7%|▋         | 231M/3.44G [00:06<01:21, 39.4MB/s][A[A[A[A[A
+model.safetensors:  64%|██████▍   | 315M/492M [00:06<00:04, 39.1MB/s][A
+
+
+diffusion_pytorch_model.safetensors:  75%|███████▌  | 252M/335M [00:06<00:02, 39.6MB/s][A[A[A
+model.safetensors:  66%|██████▌   | 325M/492M [00:07<00:04, 39.1MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   7%|▋         | 241M/3.44G [00:06<01:24, 37.8MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  78%|███████▊  | 262M/335M [00:06<00:01, 39.7MB/s][A[A[A
+model.safetensors:  68%|██████▊   | 336M/492M [00:07<00:03, 39.5MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   7%|▋         | 252M/3.44G [00:07<01:23, 38.4MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  81%|████████▏ | 273M/335M [00:07<00:01, 39.1MB/s][A[A[A
+model.safetensors:  70%|███████   | 346M/492M [00:07<00:03, 40.0MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   8%|▊         | 262M/3.44G [00:07<01:24, 37.8MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  85%|████████▍ | 283M/335M [00:07<00:01, 39.9MB/s][A[A[A
+model.safetensors:  72%|███████▏  | 357M/492M [00:07<00:03, 39.9MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   8%|▊         | 273M/3.44G [00:07<01:22, 38.2MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  88%|████████▊ | 294M/335M [00:07<00:01, 39.5MB/s][A[A[A
+model.safetensors:  75%|███████▍  | 367M/492M [00:08<00:03, 39.3MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   8%|▊         | 283M/3.44G [00:07<01:21, 38.6MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  91%|█████████ | 304M/335M [00:08<00:00, 39.6MB/s][A[A[A
+model.safetensors:  77%|███████▋  | 377M/492M [00:08<00:02, 39.1MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   9%|▊         | 294M/3.44G [00:08<01:20, 39.1MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  94%|█████████▍| 315M/335M [00:08<00:00, 39.5MB/s][A[A[A
+model.safetensors:  79%|███████▉  | 388M/492M [00:08<00:02, 38.2MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   9%|▉         | 304M/3.44G [00:08<01:19, 39.6MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors:  97%|█████████▋| 325M/335M [00:08<00:00, 39.7MB/s][A[A[A
+model.safetensors:  81%|████████  | 398M/492M [00:08<00:02, 37.9MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:   9%|▉         | 315M/3.44G [00:08<01:19, 39.1MB/s][A[A[A[A[A
+
+
+diffusion_pytorch_model.safetensors: 100%|██████████| 335M/335M [00:08<00:00, 40.9MB/s][A[A[Adiffusion_pytorch_model.safetensors: 100%|██████████| 335M/335M [00:08<00:00, 38.1MB/s]
+
+
+
+
+
+diffusion_pytorch_model.safetensors:   9%|▉         | 325M/3.44G [00:08<01:13, 42.1MB/s][A[A[A[A[A
+model.safetensors:  83%|████████▎ | 409M/492M [00:09<00:02, 39.5MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:  10%|▉         | 336M/3.44G [00:09<01:06, 46.7MB/s][A[A[A[A[A
+model.safetensors:  85%|████████▌ | 419M/492M [00:09<00:01, 44.0MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:  10%|█         | 346M/3.44G [00:09<01:02, 49.6MB/s][A[A[A[A[A
+model.safetensors:  87%|████████▋ | 430M/492M [00:09<00:01, 47.1MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:  10%|█         | 357M/3.44G [00:09<00:58, 52.8MB/s][A[A[A[A[A
+model.safetensors:  89%|████████▉ | 440M/492M [00:09<00:01, 50.0MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:  11%|█         | 367M/3.44G [00:09<00:56, 54.4MB/s][A[A[A[A[A
+model.safetensors:  92%|█████████▏| 451M/492M [00:09<00:00, 52.3MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:  11%|█         | 377M/3.44G [00:09<00:54, 55.8MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  12%|█▏        | 398M/3.44G [00:09<00:42, 71.1MB/s][A[A[A[A[A
+model.safetensors:  94%|█████████▎| 461M/492M [00:10<00:00, 39.4MB/s][A
+model.safetensors:  96%|█████████▌| 472M/492M [00:10<00:00, 47.0MB/s][A
+
+
+
+
+diffusion_pytorch_model.safetensors:  12%|█▏        | 409M/3.44G [00:10<01:00, 49.9MB/s][A[A[A[A[A
+model.safetensors: 100%|██████████| 492M/492M [00:10<00:00, 60.7MB/s][Amodel.safetensors: 100%|██████████| 492M/492M [00:10<00:00, 46.1MB/s]
+Fetching 13 files:  38%|███▊      | 5/13 [00:10<00:18,  2.29s/it]
+
+
+
+
+diffusion_pytorch_model.safetensors:  12%|█▏        | 419M/3.44G [00:10<00:58, 51.6MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  13%|█▎        | 430M/3.44G [00:10<01:00, 49.6MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  13%|█▎        | 440M/3.44G [00:10<00:52, 56.9MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  13%|█▎        | 461M/3.44G [00:11<00:41, 72.3MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  14%|█▍        | 482M/3.44G [00:11<00:34, 86.6MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  15%|█▍        | 503M/3.44G [00:11<00:30, 95.5MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  15%|█▌        | 524M/3.44G [00:11<00:28, 101MB/s] [A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  16%|█▌        | 545M/3.44G [00:11<00:27, 106MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  16%|█▋        | 566M/3.44G [00:11<00:26, 107MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  17%|█▋        | 587M/3.44G [00:12<00:25, 112MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  18%|█▊        | 608M/3.44G [00:12<00:24, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  18%|█▊        | 629M/3.44G [00:12<00:24, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  19%|█▉        | 650M/3.44G [00:12<00:24, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  20%|█▉        | 671M/3.44G [00:12<00:23, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  20%|██        | 692M/3.44G [00:13<00:23, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  21%|██        | 713M/3.44G [00:13<00:23, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  21%|██▏       | 734M/3.44G [00:13<00:23, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  22%|██▏       | 755M/3.44G [00:13<00:22, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  23%|██▎       | 776M/3.44G [00:13<00:22, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  23%|██▎       | 797M/3.44G [00:13<00:22, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  24%|██▍       | 818M/3.44G [00:14<00:22, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  24%|██▍       | 839M/3.44G [00:14<00:22, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  25%|██▌       | 860M/3.44G [00:14<00:22, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  26%|██▌       | 881M/3.44G [00:14<00:21, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  26%|██▌       | 902M/3.44G [00:14<00:21, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  27%|██▋       | 923M/3.44G [00:15<00:21, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  27%|██▋       | 944M/3.44G [00:15<00:21, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  28%|██▊       | 965M/3.44G [00:15<00:20, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  29%|██▊       | 986M/3.44G [00:15<00:21, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  29%|██▉       | 1.01G/3.44G [00:15<00:20, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  30%|██▉       | 1.03G/3.44G [00:15<00:20, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  30%|███       | 1.05G/3.44G [00:16<00:20, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  31%|███       | 1.07G/3.44G [00:16<00:20, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  32%|███▏      | 1.09G/3.44G [00:16<00:19, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  32%|███▏      | 1.11G/3.44G [00:16<00:19, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  33%|███▎      | 1.13G/3.44G [00:16<00:19, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  34%|███▎      | 1.15G/3.44G [00:16<00:19, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  34%|███▍      | 1.17G/3.44G [00:17<00:19, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  35%|███▍      | 1.20G/3.44G [00:17<00:19, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  35%|███▌      | 1.22G/3.44G [00:17<00:19, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  36%|███▌      | 1.24G/3.44G [00:17<00:18, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  37%|███▋      | 1.26G/3.44G [00:17<00:18, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  37%|███▋      | 1.28G/3.44G [00:18<00:18, 114MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  38%|███▊      | 1.30G/3.44G [00:18<00:17, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  38%|███▊      | 1.32G/3.44G [00:18<00:17, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  39%|███▉      | 1.34G/3.44G [00:18<00:18, 114MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  40%|███▉      | 1.36G/3.44G [00:18<00:17, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  40%|████      | 1.38G/3.44G [00:18<00:17, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  41%|████      | 1.41G/3.44G [00:19<00:17, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  41%|████▏     | 1.43G/3.44G [00:19<00:17, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  42%|████▏     | 1.45G/3.44G [00:19<00:16, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  43%|████▎     | 1.47G/3.44G [00:19<00:16, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  43%|████▎     | 1.49G/3.44G [00:19<00:16, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  44%|████▍     | 1.51G/3.44G [00:20<00:16, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  45%|████▍     | 1.53G/3.44G [00:20<00:16, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  45%|████▌     | 1.55G/3.44G [00:20<00:21, 87.4MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  45%|████▌     | 1.56G/3.44G [00:20<00:21, 89.3MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  46%|████▌     | 1.58G/3.44G [00:20<00:19, 97.1MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  47%|████▋     | 1.60G/3.44G [00:21<00:17, 103MB/s] [A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  47%|████▋     | 1.63G/3.44G [00:21<00:16, 107MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  48%|████▊     | 1.65G/3.44G [00:21<00:15, 113MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  48%|████▊     | 1.67G/3.44G [00:21<00:15, 112MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  49%|████▉     | 1.69G/3.44G [00:21<00:15, 114MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  50%|████▉     | 1.71G/3.44G [00:21<00:14, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  50%|█████     | 1.73G/3.44G [00:22<00:14, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  51%|█████     | 1.75G/3.44G [00:22<00:14, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  52%|█████▏    | 1.77G/3.44G [00:22<00:14, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  52%|█████▏    | 1.79G/3.44G [00:22<00:14, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  53%|█████▎    | 1.81G/3.44G [00:22<00:13, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  53%|█████▎    | 1.84G/3.44G [00:22<00:13, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  54%|█████▍    | 1.86G/3.44G [00:23<00:13, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  55%|█████▍    | 1.88G/3.44G [00:23<00:13, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  55%|█████▌    | 1.90G/3.44G [00:23<00:13, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  56%|█████▌    | 1.92G/3.44G [00:23<00:12, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  56%|█████▋    | 1.94G/3.44G [00:23<00:13, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  57%|█████▋    | 1.96G/3.44G [00:24<00:12, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  58%|█████▊    | 1.98G/3.44G [00:24<00:12, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  58%|█████▊    | 2.00G/3.44G [00:24<00:12, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  59%|█████▉    | 2.02G/3.44G [00:24<00:12, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  59%|█████▉    | 2.04G/3.44G [00:24<00:11, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  60%|██████    | 2.07G/3.44G [00:24<00:11, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  61%|██████    | 2.09G/3.44G [00:25<00:11, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  61%|██████▏   | 2.11G/3.44G [00:25<00:11, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  62%|██████▏   | 2.13G/3.44G [00:25<00:11, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  63%|██████▎   | 2.15G/3.44G [00:25<00:11, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  63%|██████▎   | 2.17G/3.44G [00:25<00:10, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  64%|██████▎   | 2.19G/3.44G [00:26<00:10, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  64%|██████▍   | 2.21G/3.44G [00:26<00:10, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  65%|██████▍   | 2.23G/3.44G [00:26<00:10, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  66%|██████▌   | 2.25G/3.44G [00:26<00:09, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  66%|██████▌   | 2.28G/3.44G [00:26<00:09, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  67%|██████▋   | 2.30G/3.44G [00:26<00:09, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  67%|██████▋   | 2.32G/3.44G [00:27<00:09, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  68%|██████▊   | 2.34G/3.44G [00:27<00:09, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  69%|██████▊   | 2.36G/3.44G [00:27<00:09, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  69%|██████▉   | 2.38G/3.44G [00:27<00:09, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  70%|██████▉   | 2.40G/3.44G [00:27<00:08, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  70%|███████   | 2.42G/3.44G [00:27<00:08, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  71%|███████   | 2.44G/3.44G [00:28<00:08, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  72%|███████▏  | 2.46G/3.44G [00:28<00:08, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  72%|███████▏  | 2.49G/3.44G [00:28<00:08, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  73%|███████▎  | 2.51G/3.44G [00:28<00:07, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  74%|███████▎  | 2.53G/3.44G [00:28<00:07, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  74%|███████▍  | 2.55G/3.44G [00:29<00:07, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  75%|███████▍  | 2.57G/3.44G [00:29<00:07, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  75%|███████▌  | 2.59G/3.44G [00:29<00:07, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  76%|███████▌  | 2.61G/3.44G [00:29<00:07, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  77%|███████▋  | 2.63G/3.44G [00:29<00:06, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  77%|███████▋  | 2.65G/3.44G [00:29<00:06, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  78%|███████▊  | 2.67G/3.44G [00:30<00:06, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  78%|███████▊  | 2.69G/3.44G [00:30<00:06, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  79%|███████▉  | 2.72G/3.44G [00:30<00:06, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  80%|███████▉  | 2.74G/3.44G [00:30<00:08, 86.5MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  80%|████████  | 2.76G/3.44G [00:31<00:07, 93.9MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  81%|████████  | 2.78G/3.44G [00:31<00:06, 99.9MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  81%|████████▏ | 2.80G/3.44G [00:31<00:06, 105MB/s] [A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  82%|████████▏ | 2.82G/3.44G [00:31<00:05, 108MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  83%|████████▎ | 2.84G/3.44G [00:31<00:05, 111MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  83%|████████▎ | 2.86G/3.44G [00:31<00:05, 113MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  84%|████████▍ | 2.88G/3.44G [00:32<00:04, 114MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  84%|████████▍ | 2.90G/3.44G [00:32<00:04, 114MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  85%|████████▌ | 2.93G/3.44G [00:32<00:04, 114MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  86%|████████▌ | 2.95G/3.44G [00:32<00:04, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  86%|████████▋ | 2.97G/3.44G [00:32<00:04, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  87%|████████▋ | 2.99G/3.44G [00:33<00:03, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  88%|████████▊ | 3.01G/3.44G [00:33<00:03, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  88%|████████▊ | 3.03G/3.44G [00:33<00:03, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  89%|████████▊ | 3.05G/3.44G [00:33<00:03, 115MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  89%|████████▉ | 3.07G/3.44G [00:33<00:03, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  90%|████████▉ | 3.09G/3.44G [00:33<00:02, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  91%|█████████ | 3.11G/3.44G [00:34<00:02, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  91%|█████████ | 3.14G/3.44G [00:34<00:02, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  92%|█████████▏| 3.16G/3.44G [00:34<00:02, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  92%|█████████▏| 3.18G/3.44G [00:34<00:02, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  93%|█████████▎| 3.20G/3.44G [00:34<00:02, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  94%|█████████▎| 3.22G/3.44G [00:35<00:01, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  94%|█████████▍| 3.24G/3.44G [00:35<00:01, 116MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  95%|█████████▍| 3.26G/3.44G [00:35<00:01, 117MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  95%|█████████▌| 3.28G/3.44G [00:35<00:01, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  96%|█████████▌| 3.30G/3.44G [00:35<00:01, 119MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  97%|█████████▋| 3.32G/3.44G [00:35<00:00, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  97%|█████████▋| 3.34G/3.44G [00:36<00:00, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  98%|█████████▊| 3.37G/3.44G [00:36<00:00, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  99%|█████████▊| 3.39G/3.44G [00:36<00:00, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors:  99%|█████████▉| 3.41G/3.44G [00:36<00:00, 118MB/s][A[A[A[A[A
+
+
+
+
+diffusion_pytorch_model.safetensors: 100%|█████████▉| 3.43G/3.44G [00:36<00:00, 118MB/s][A[A[A[A[Adiffusion_pytorch_model.safetensors: 100%|██████████| 3.44G/3.44G [00:36<00:00, 93.2MB/s]
+Fetching 13 files:  85%|████████▍ | 11/13 [00:37<00:07,  3.66s/it]Fetching 13 files: 100%|██████████| 13/13 [00:37<00:00,  2.87s/it]
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  6.02it/s]Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  4.21it/s]Loading pipeline components...:  83%|████████▎ | 5/6 [00:00<00:00,  6.59it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.23it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.controlnet.pipeline_controlnet.StableDiffusionControlNetPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+/scratch/condor/dir_3022904/lib/guidance/t2v_model/pipeline_conditionvideo.py:16: FutureWarning: Importing `DiffusionPipeline` or `ImagePipelineOutput` from diffusers.pipeline_utils is deprecated. Please import from diffusers.pipelines.pipeline_utils instead.
+  from diffusers.pipeline_utils import DiffusionPipeline
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:00,  6.25it/s]Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00,  4.44it/s]Loading pipeline components...:  83%|████████▎ | 5/6 [00:00<00:00,  6.88it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00,  7.56it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.controlnet.pipeline_controlnet.StableDiffusionControlNetPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+The config attributes {'up_block_types': ['UpBlock3D', 'CrossAttnUpBlock3D', 'CrossAttnUpBlock3D', 'CrossAttnUpBlock3D']} were passed to ControlNet3DModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+A matching Triton is not available, some optimizations will not be enabled.
+Error caught was: No module named 'triton'
+0/100 [?it/s]/scratch/condor/dir_3022904/lib/guidance/controlnet_t2v.py:136: FutureWarning: Accessing config attribute `in_channels` directly via 'UNet3DConditionModel' object attribute is deprecated. Please access 'in_channels' over 'UNet3DConditionModel's config object instead, e.g. 'unet.config.in_channels'.
+  num_channels_latents = self.unet.in_channels
+/workspace/miniconda3/envs/star/lib/python3.10/site-packages/torch/utils/checkpoint.py:25: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn("None of the inputs have requires_grad=True. Gradients will be None")
+/workspace/miniconda3/envs/star/lib/python3.10/site-packages/pytorch3d/structures/meshes.py:1097: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  self._edges_packed = torch.stack([u // V, u % V], dim=1)
+unable to load materials from: template.mtl
+loss=1035.483, lr=0.0489, : : 0/100 [?it/s]loss=1035.483, lr=0.0489, : : 1/100 [ 6.82s/it]loss=1789.751, lr=0.0477, : : 1/100 [ 6.82s/it]loss=1789.751, lr=0.0477, : : 2/100 [ 3.65s/it]loss=3616.867, lr=0.0467, : : 2/100 [ 3.65s/it]loss=3616.867, lr=0.0467, : : 3/100 [ 2.63s/it]loss=5098.107, lr=0.0456, : : 3/100 [ 2.63s/it]loss=5098.107, lr=0.0456, : : 4/100 [ 2.15s/it]loss=1852.769, lr=0.0446, : : 4/100 [ 2.15s/it]loss=1852.769, lr=0.0446, : : 5/100 [ 1.90s/it]loss=6211.747, lr=0.0435, : : 5/100 [ 1.90s/it]loss=6211.747, lr=0.0435, : : 6/100 [ 1.75s/it]loss=3089.267, lr=0.0426, : : 6/100 [ 1.75s/it]loss=3089.267, lr=0.0426, : : 7/100 [ 1.65s/it]loss=1355.541, lr=0.0416, : : 7/100 [ 1.65s/it]loss=1355.541, lr=0.0416, : : 8/100 [ 1.62s/it]loss=14673.933, lr=0.0406, : : 8/100 [ 1.62s/it]loss=14673.933, lr=0.0406, : : 9/100 [ 1.59s/it]loss=4790.792, lr=0.0397, : : 9/100 [ 1.59s/it] loss=4790.792, lr=0.0397, : : 10/100 [ 1.56s/it]loss=1187.764, lr=0.0388, : : 10/100 [ 1.56s/it]loss=1187.764, lr=0.0388, : : 11/100 [ 1.55s/it]loss=11277.429, lr=0.0379, : : 11/100 [ 1.55s/it]loss=11277.429, lr=0.0379, : : 12/100 [ 1.53s/it]loss=7425.614, lr=0.0371, : : 12/100 [ 1.53s/it] loss=7425.614, lr=0.0371, : : 13/100 [ 1.53s/it]loss=1104.278, lr=0.0362, : : 13/100 [ 1.53s/it]loss=1104.278, lr=0.0362, : : 14/100 [ 1.50s/it]loss=4101.718, lr=0.0354, : : 14/100 [ 1.50s/it]loss=4101.718, lr=0.0354, : : 15/100 [ 1.52s/it]loss=802.518, lr=0.0346, : : 15/100 [ 1.52s/it] loss=802.518, lr=0.0346, : : 16/100 [ 1.54s/it]loss=10208.142, lr=0.0338, : : 16/100 [ 1.54s/it]loss=10208.142, lr=0.0338, : : 17/100 [ 1.55s/it]loss=8383.366, lr=0.0330, : : 17/100 [ 1.55s/it] loss=8383.366, lr=0.0330, : : 18/100 [ 1.56s/it]loss=1098.951, lr=0.0323, : : 18/100 [ 1.56s/it]loss=1098.951, lr=0.0323, : : 19/100 [ 1.57s/it]loss=8059.886, lr=0.0315, : : 19/100 [ 1.57s/it]loss=8059.886, lr=0.0315, : : 20/100 [ 1.59s/it]loss=4622.750, lr=0.0308, : : 20/100 [ 1.59s/it]loss=4622.750, lr=0.0308, : : 21/100 [ 1.62s/it]loss=3193.441, lr=0.0301, : : 21/100 [ 1.62s/it]loss=3193.441, lr=0.0301, : : 22/100 [ 1.60s/it]loss=6072.977, lr=0.0294, : : 22/100 [ 1.60s/it]loss=6072.977, lr=0.0294, : : 23/100 [ 1.57s/it]loss=5998.630, lr=0.0288, : : 23/100 [ 1.57s/it]loss=5998.630, lr=0.0288, : : 24/100 [ 1.58s/it]loss=5071.264, lr=0.0281, : : 24/100 [ 1.58s/it]loss=5071.264, lr=0.0281, : : 25/100 [ 1.58s/it]loss=6581.024, lr=0.0275, : : 25/100 [ 1.58s/it]loss=6581.024, lr=0.0275, : : 26/100 [ 1.57s/it]loss=935.554, lr=0.0269, : : 26/100 [ 1.57s/it] loss=935.554, lr=0.0269, : : 27/100 [ 1.57s/it]loss=11848.967, lr=0.0262, : : 27/100 [ 1.57s/it]loss=11848.967, lr=0.0262, : : 28/100 [ 1.58s/it]loss=15570.380, lr=0.0256, : : 28/100 [ 1.58s/it]loss=15570.380, lr=0.0256, : : 29/100 [ 1.59s/it]loss=4914.884, lr=0.0251, : : 29/100 [ 1.59s/it] loss=4914.884, lr=0.0251, : : 30/100 [ 1.60s/it]loss=7004.727, lr=0.0245, : : 30/100 [ 1.60s/it]loss=7004.727, lr=0.0245, : : 31/100 [ 1.59s/it]loss=14596.385, lr=0.0239, : : 31/100 [ 1.59s/it]loss=14596.385, lr=0.0239, : : 32/100 [ 1.58s/it]loss=5175.417, lr=0.0234, : : 32/100 [ 1.58s/it] loss=5175.417, lr=0.0234, : : 33/100 [ 1.60s/it]loss=916.461, lr=0.0229, : : 33/100 [ 1.60s/it] loss=916.461, lr=0.0229, : : 34/100 [ 1.65s/it]loss=19092.811, lr=0.0223, : : 34/100 [ 1.65s/it]loss=19092.811, lr=0.0223, : : 35/100 [ 1.63s/it]loss=1477.792, lr=0.0218, : : 35/100 [ 1.63s/it] loss=1477.792, lr=0.0218, : : 36/100 [ 1.62s/it]loss=4721.252, lr=0.0213, : : 36/100 [ 1.62s/it]loss=4721.252, lr=0.0213, : : 37/100 [ 1.60s/it]loss=4036.952, lr=0.0208, : : 37/100 [ 1.60s/it]loss=4036.952, lr=0.0208, : : 38/100 [ 1.59s/it]loss=2854.490, lr=0.0204, : : 38/100 [ 1.59s/it]loss=2854.490, lr=0.0204, : : 39/100 [ 1.58s/it]loss=1455.080, lr=0.0199, : : 39/100 [ 1.58s/it]loss=1455.080, lr=0.0199, : : 40/100 [ 1.60s/it]loss=6143.461, lr=0.0195, : : 40/100 [ 1.60s/it]loss=6143.461, lr=0.0195, : : 41/100 [ 1.59s/it]loss=395.889, lr=0.0190, : : 41/100 [ 1.59s/it] loss=395.889, lr=0.0190, : : 42/100 [ 1.60s/it]loss=4269.337, lr=0.0186, : : 42/100 [ 1.60s/it]loss=4269.337, lr=0.0186, : : 43/100 [ 1.60s/it]loss=7130.857, lr=0.0182, : : 43/100 [ 1.60s/it]loss=7130.857, lr=0.0182, : : 44/100 [ 1.61s/it]loss=4394.661, lr=0.0177, : : 44/100 [ 1.61s/it]loss=4394.661, lr=0.0177, : : 45/100 [ 1.60s/it]loss=6889.502, lr=0.0173, : : 45/100 [ 1.60s/it]loss=6889.502, lr=0.0173, : : 46/100 [ 1.60s/it]loss=899.765, lr=0.0169, : : 46/100 [ 1.60s/it] loss=899.765, lr=0.0169, : : 47/100 [ 1.62s/it]loss=6043.013, lr=0.0166, : : 47/100 [ 1.62s/it]loss=6043.013, lr=0.0166, : : 48/100 [ 1.60s/it]loss=3039.200, lr=0.0162, : : 48/100 [ 1.60s/it]loss=3039.200, lr=0.0162, : : 49/100 [ 1.60s/it]loss=1278.569, lr=0.0158, : : 49/100 [ 1.60s/it]loss=1278.569, lr=0.0158, : : 50/100 [ 1.60s/it]loss=1418.078, lr=0.0155, : : 50/100 [ 1.60s/it]loss=1418.078, lr=0.0155, : : 51/100 [ 1.60s/it]loss=3456.224, lr=0.0151, : : 51/100 [ 1.60s/it]loss=3456.224, lr=0.0151, : : 52/100 [ 1.61s/it]loss=9962.991, lr=0.0148, : : 52/100 [ 1.61s/it]loss=9962.991, lr=0.0148, : : 53/100 [ 1.62s/it]loss=12653.017, lr=0.0144, : : 53/100 [ 1.62s/it]loss=12653.017, lr=0.0144, : : 54/100 [ 1.61s/it]loss=9188.641, lr=0.0141, : : 54/100 [ 1.61s/it] loss=9188.641, lr=0.0141, : : 55/100 [ 1.59s/it]loss=5706.997, lr=0.0138, : : 55/100 [ 1.59s/it]loss=5706.997, lr=0.0138, : : 56/100 [ 1.58s/it]loss=5334.969, lr=0.0135, : : 56/100 [ 1.58s/it]loss=5334.969, lr=0.0135, : : 57/100 [ 1.58s/it]loss=5991.275, lr=0.0132, : : 57/100 [ 1.58s/it]loss=5991.275, lr=0.0132, : : 58/100 [ 1.59s/it]loss=3611.189, lr=0.0129, : : 58/100 [ 1.59s/it]loss=3611.189, lr=0.0129, : : 59/100 [ 1.60s/it]loss=1561.131, lr=0.0126, : : 59/100 [ 1.60s/it]loss=1561.131, lr=0.0126, : : 60/100 [ 1.61s/it]loss=4899.896, lr=0.0123, : : 60/100 [ 1.61s/it]loss=4899.896, lr=0.0123, : : 61/100 [ 1.65s/it]loss=2298.248, lr=0.0120, : : 61/100 [ 1.65s/it]loss=2298.248, lr=0.0120, : : 62/100 [ 1.64s/it]loss=2409.062, lr=0.0117, : : 62/100 [ 1.64s/it]loss=2409.062, lr=0.0117, : : 63/100 [ 1.62s/it]loss=6310.522, lr=0.0115, : : 63/100 [ 1.62s/it]loss=6310.522, lr=0.0115, : : 64/100 [ 1.63s/it]loss=4212.471, lr=0.0112, : : 64/100 [ 1.63s/it]loss=4212.471, lr=0.0112, : : 65/100 [ 1.60s/it]loss=5637.247, lr=0.0109, : : 65/100 [ 1.60s/it]loss=5637.247, lr=0.0109, : : 66/100 [ 1.61s/it]loss=8630.230, lr=0.0107, : : 66/100 [ 1.61s/it]loss=8630.230, lr=0.0107, : : 67/100 [ 1.61s/it]loss=7892.023, lr=0.0104, : : 67/100 [ 1.61s/it]loss=7892.023, lr=0.0104, : : 68/100 [ 1.61s/it]loss=5454.022, lr=0.0102, : : 68/100 [ 1.61s/it]loss=5454.022, lr=0.0102, : : 69/100 [ 1.59s/it]loss=7025.042, lr=0.0100, : : 69/100 [ 1.59s/it]loss=7025.042, lr=0.0100, : : 70/100 [ 1.60s/it]loss=9044.810, lr=0.0097, : : 70/100 [ 1.60s/it]loss=9044.810, lr=0.0097, : : 71/100 [ 1.61s/it]loss=9280.874, lr=0.0095, : : 71/100 [ 1.61s/it]loss=9280.874, lr=0.0095, : : 72/100 [ 1.60s/it]loss=5013.885, lr=0.0093, : : 72/100 [ 1.60s/it]loss=5013.885, lr=0.0093, : : 73/100 [ 1.61s/it]loss=11632.779, lr=0.0091, : : 73/100 [ 1.61s/it]loss=11632.779, lr=0.0091, : : 74/100 [ 1.64s/it]loss=13996.400, lr=0.0089, : : 74/100 [ 1.64s/it]loss=13996.400, lr=0.0089, : : 75/100 [ 1.63s/it]loss=5751.113, lr=0.0087, : : 75/100 [ 1.63s/it] loss=5751.113, lr=0.0087, : : 76/100 [ 1.63s/it]loss=1947.018, lr=0.0085, : : 76/100 [ 1.63s/it]loss=1947.018, lr=0.0085, : : 77/100 [ 1.61s/it]loss=4040.439, lr=0.0083, : : 77/100 [ 1.61s/it]loss=4040.439, lr=0.0083, : : 78/100 [ 1.62s/it]loss=11379.022, lr=0.0081, : : 78/100 [ 1.62s/it]loss=11379.022, lr=0.0081, : : 79/100 [ 1.59s/it]loss=2683.662, lr=0.0079, : : 79/100 [ 1.59s/it] loss=2683.662, lr=0.0079, : : 80/100 [ 1.60s/it]loss=8069.026, lr=0.0077, : : 80/100 [ 1.60s/it]loss=8069.026, lr=0.0077, : : 81/100 [ 1.62s/it]loss=5870.798, lr=0.0076, : : 81/100 [ 1.62s/it]loss=5870.798, lr=0.0076, : : 82/100 [ 1.61s/it]loss=657.008, lr=0.0074, : : 82/100 [ 1.61s/it] loss=657.008, lr=0.0074, : : 83/100 [ 1.59s/it]loss=6678.829, lr=0.0072, : : 83/100 [ 1.59s/it]loss=6678.829, lr=0.0072, : : 84/100 [ 1.61s/it]loss=5727.535, lr=0.0071, : : 84/100 [ 1.61s/it]loss=5727.535, lr=0.0071, : : 85/100 [ 1.59s/it]loss=5060.356, lr=0.0069, : : 85/100 [ 1.59s/it]loss=5060.356, lr=0.0069, : : 86/100 [ 1.61s/it]loss=3487.750, lr=0.0067, : : 86/100 [ 1.61s/it]loss=3487.750, lr=0.0067, : : 87/100 [ 1.64s/it]loss=3760.763, lr=0.0066, : : 87/100 [ 1.64s/it]loss=3760.763, lr=0.0066, : : 88/100 [ 1.64s/it]loss=8867.338, lr=0.0064, : : 88/100 [ 1.64s/it]loss=8867.338, lr=0.0064, : : 89/100 [ 1.62s/it]loss=2394.265, lr=0.0063, : : 89/100 [ 1.62s/it]loss=2394.265, lr=0.0063, : : 90/100 [ 1.62s/it]loss=6713.995, lr=0.0062, : : 90/100 [ 1.62s/it]loss=6713.995, lr=0.0062, : : 91/100 [ 1.62s/it]loss=8001.327, lr=0.0060, : : 91/100 [ 1.62s/it]loss=8001.327, lr=0.0060, : : 92/100 [ 1.61s/it]loss=1392.633, lr=0.0059, : : 92/100 [ 1.61s/it]loss=1392.633, lr=0.0059, : : 93/100 [ 1.62s/it]loss=3106.970, lr=0.0057, : : 93/100 [ 1.62s/it]loss=3106.970, lr=0.0057, : : 94/100 [ 1.61s/it]loss=4873.199, lr=0.0056, : : 94/100 [ 1.61s/it]loss=4873.199, lr=0.0056, : : 95/100 [ 1.62s/it]loss=6140.554, lr=0.0055, : : 95/100 [ 1.62s/it]loss=6140.554, lr=0.0055, : : 96/100 [ 1.62s/it]loss=3131.736, lr=0.0054, : : 96/100 [ 1.62s/it]loss=3131.736, lr=0.0054, : : 97/100 [ 1.62s/it]loss=4458.920, lr=0.0052, : : 97/100 [ 1.62s/it]loss=4458.920, lr=0.0052, : : 98/100 [ 1.62s/it]loss=222.242, lr=0.0051, : : 98/100 [ 1.62s/it] loss=222.242, lr=0.0051, : : 99/100 [ 1.62s/it]loss=5174.370, lr=0.0050, : : 99/100 [ 1.62s/it]loss=5174.370, lr=0.0050, : : 100/100 [ 1.64s/it]loss=5174.370, lr=0.0050, : : 100/100 [ 1.64s/it]
+  0% 0/4 [00:00<?, ?it/s]loss=0.0000 (0.0000): :   0% 0/4 [00:00<?, ?it/s]loss=0.0000 (0.0000): :  25% 1/4 [00:00<00:00,  3.69it/s]loss=0.0000 (0.0000): :  25% 1/4 [00:00<00:00,  3.69it/s]loss=0.0000 (0.0000): :  50% 2/4 [00:00<00:00,  4.31it/s]loss=0.0000 (0.0000): :  50% 2/4 [00:00<00:00,  4.31it/s]loss=0.0000 (0.0000): :  75% 3/4 [00:00<00:00,  4.18it/s]loss=0.0000 (0.0000): :  75% 3/4 [00:00<00:00,  4.18it/s]loss=0.0000 (0.0000): : 100% 4/4 [00:00<00:00,  4.46it/s]loss=0.0000 (0.0000): : 100% 4/4 [00:01<00:00,  3.88it/s]
+  0% 0/100 [00:00<?, ?it/s]  1% 1/100 [00:00<00:26,  3.70it/s]  2% 2/100 [00:00<00:26,  3.70it/s]  3% 3/100 [00:00<00:25,  3.75it/s]  4% 4/100 [00:01<00:25,  3.76it/s]  5% 5/100 [00:01<00:25,  3.77it/s]  6% 6/100 [00:01<00:24,  3.77it/s]  7% 7/100 [00:01<00:24,  3.75it/s]  8% 8/100 [00:02<00:24,  3.75it/s]  9% 9/100 [00:02<00:24,  3.75it/s] 10% 10/100 [00:02<00:24,  3.72it/s] 11% 11/100 [00:02<00:23,  3.73it/s] 12% 12/100 [00:03<00:23,  3.75it/s] 13% 13/100 [00:03<00:23,  3.77it/s] 14% 14/100 [00:03<00:22,  3.79it/s] 15% 15/100 [00:03<00:22,  3.84it/s] 16% 16/100 [00:04<00:21,  3.88it/s] 17% 17/100 [00:04<00:21,  3.93it/s] 18% 18/100 [00:04<00:20,  3.98it/s] 19% 19/100 [00:04<00:19,  4.05it/s] 20% 20/100 [00:05<00:19,  4.10it/s] 21% 21/100 [00:05<00:18,  4.16it/s] 22% 22/100 [00:05<00:18,  4.24it/s] 23% 23/100 [00:05<00:17,  4.32it/s] 24% 24/100 [00:06<00:17,  4.41it/s] 25% 25/100 [00:06<00:16,  4.49it/s] 26% 26/100 [00:06<00:16,  4.60it/s] 27% 27/100 [00:06<00:15,  4.63it/s] 28% 28/100 [00:06<00:15,  4.62it/s] 29% 29/100 [00:07<00:15,  4.55it/s] 30% 30/100 [00:07<00:15,  4.50it/s] 31% 31/100 [00:07<00:15,  4.41it/s] 32% 32/100 [00:07<00:15,  4.36it/s] 33% 33/100 [00:08<00:15,  4.30it/s] 34% 34/100 [00:08<00:15,  4.27it/s] 35% 35/100 [00:08<00:15,  4.25it/s] 36% 36/100 [00:08<00:15,  4.21it/s] 37% 37/100 [00:09<00:15,  4.16it/s] 38% 38/100 [00:09<00:14,  4.15it/s] 39% 39/100 [00:09<00:14,  4.12it/s] 40% 40/100 [00:09<00:14,  4.10it/s] 41% 41/100 [00:10<00:14,  4.06it/s] 42% 42/100 [00:10<00:14,  4.03it/s] 43% 43/100 [00:10<00:14,  4.03it/s] 44% 44/100 [00:10<00:13,  4.02it/s] 45% 45/100 [00:11<00:13,  4.01it/s] 46% 46/100 [00:11<00:13,  4.00it/s] 47% 47/100 [00:11<00:13,  4.01it/s] 48% 48/100 [00:11<00:12,  4.00it/s] 49% 49/100 [00:12<00:12,  3.95it/s] 50% 50/100 [00:12<00:12,  3.97it/s] 51% 51/100 [00:12<00:12,  3.98it/s] 52% 52/100 [00:12<00:12,  3.98it/s] 53% 53/100 [00:13<00:11,  3.99it/s] 54% 54/100 [00:13<00:11,  4.01it/s] 55% 55/100 [00:13<00:11,  4.02it/s] 56% 56/100 [00:13<00:10,  4.03it/s] 57% 57/100 [00:14<00:10,  4.03it/s] 58% 58/100 [00:14<00:10,  4.04it/s] 59% 59/100 [00:14<00:10,  3.96it/s] 60% 60/100 [00:14<00:10,  3.99it/s] 61% 61/100 [00:15<00:09,  4.01it/s] 62% 62/100 [00:15<00:09,  4.03it/s] 63% 63/100 [00:15<00:09,  4.03it/s] 64% 64/100 [00:15<00:08,  4.01it/s] 65% 65/100 [00:16<00:08,  4.01it/s] 66% 66/100 [00:16<00:08,  4.02it/s] 67% 67/100 [00:16<00:08,  4.01it/s] 68% 68/100 [00:16<00:07,  4.02it/s] 69% 69/100 [00:17<00:07,  4.01it/s] 70% 70/100 [00:17<00:07,  3.99it/s] 71% 71/100 [00:17<00:07,  3.99it/s] 72% 72/100 [00:17<00:06,  4.02it/s] 73% 73/100 [00:18<00:06,  4.09it/s] 74% 74/100 [00:18<00:06,  4.20it/s] 75% 75/100 [00:18<00:05,  4.35it/s] 76% 76/100 [00:18<00:05,  4.52it/s] 77% 77/100 [00:18<00:05,  4.60it/s] 78% 78/100 [00:19<00:04,  4.60it/s] 79% 79/100 [00:19<00:04,  4.60it/s] 80% 80/100 [00:19<00:04,  4.57it/s] 81% 81/100 [00:19<00:04,  4.51it/s] 82% 82/100 [00:20<00:04,  4.43it/s] 83% 83/100 [00:20<00:03,  4.38it/s] 84% 84/100 [00:20<00:03,  4.32it/s] 85% 85/100 [00:20<00:03,  4.25it/s] 86% 86/100 [00:20<00:03,  4.19it/s] 87% 87/100 [00:21<00:03,  4.14it/s] 88% 88/100 [00:21<00:02,  4.08it/s] 89% 89/100 [00:21<00:02,  4.03it/s] 90% 90/100 [00:21<00:02,  3.98it/s] 91% 91/100 [00:22<00:02,  3.92it/s] 92% 92/100 [00:22<00:02,  3.89it/s] 93% 93/100 [00:22<00:01,  3.87it/s] 94% 94/100 [00:23<00:01,  3.85it/s] 95% 95/100 [00:23<00:01,  3.83it/s] 96% 96/100 [00:23<00:01,  3.82it/s] 97% 97/100 [00:23<00:00,  3.82it/s] 98% 98/100 [00:24<00:00,  3.82it/s] 99% 99/100 [00:24<00:00,  3.80it/s]100% 100/100 [00:24<00:00,  3.79it/s]100% 100/100 [00:26<00:00,  3.79it/s]
+  0% 0/196 [00:00<?, ?it/s]  1% 1/196 [00:00<00:51,  3.76it/s]  1% 2/196 [00:00<00:50,  3.82it/s]  2% 3/196 [00:00<00:50,  3.85it/s]  2% 4/196 [00:01<00:49,  3.86it/s]  3% 5/196 [00:01<00:49,  3.88it/s]  3% 6/196 [00:01<00:49,  3.88it/s]  4% 7/196 [00:01<00:48,  3.87it/s]  4% 8/196 [00:02<00:48,  3.87it/s]  5% 9/196 [00:02<00:48,  3.87it/s]  5% 10/196 [00:02<00:47,  3.88it/s]  6% 11/196 [00:02<00:47,  3.88it/s]  6% 12/196 [00:03<00:47,  3.87it/s]  7% 13/196 [00:03<00:47,  3.87it/s]  7% 14/196 [00:03<00:46,  3.88it/s]  8% 15/196 [00:03<00:46,  3.86it/s]  8% 16/196 [00:04<00:46,  3.85it/s]  9% 17/196 [00:04<00:46,  3.84it/s]  9% 18/196 [00:04<00:46,  3.85it/s] 10% 19/196 [00:04<00:46,  3.85it/s] 10% 20/196 [00:05<00:45,  3.85it/s] 11% 21/196 [00:05<00:45,  3.86it/s] 11% 22/196 [00:05<00:44,  3.87it/s] 12% 23/196 [00:05<00:44,  3.88it/s] 12% 24/196 [00:06<00:44,  3.89it/s] 13% 25/196 [00:06<00:43,  3.89it/s] 13% 26/196 [00:06<00:43,  3.89it/s] 14% 27/196 [00:06<00:43,  3.89it/s] 14% 28/196 [00:07<00:43,  3.88it/s] 15% 29/196 [00:07<00:43,  3.88it/s] 15% 30/196 [00:07<00:42,  3.89it/s] 16% 31/196 [00:08<00:42,  3.89it/s] 16% 32/196 [00:08<00:42,  3.90it/s] 17% 33/196 [00:08<00:41,  3.89it/s] 17% 34/196 [00:08<00:41,  3.89it/s] 18% 35/196 [00:09<00:41,  3.89it/s] 18% 36/196 [00:09<00:41,  3.89it/s] 19% 37/196 [00:09<00:40,  3.90it/s] 19% 38/196 [00:09<00:40,  3.89it/s] 20% 39/196 [00:10<00:40,  3.89it/s] 20% 40/196 [00:10<00:40,  3.88it/s] 21% 41/196 [00:10<00:39,  3.88it/s] 21% 42/196 [00:10<00:39,  3.88it/s] 22% 43/196 [00:11<00:39,  3.88it/s] 22% 44/196 [00:11<00:39,  3.88it/s] 23% 45/196 [00:11<00:39,  3.87it/s] 23% 46/196 [00:11<00:38,  3.87it/s] 24% 47/196 [00:12<00:38,  3.87it/s] 24% 48/196 [00:12<00:38,  3.86it/s] 25% 49/196 [00:12<00:37,  3.87it/s] 26% 50/196 [00:12<00:37,  3.88it/s] 26% 51/196 [00:13<00:37,  3.87it/s] 27% 52/196 [00:13<00:37,  3.86it/s] 27% 53/196 [00:13<00:37,  3.82it/s] 28% 54/196 [00:13<00:37,  3.83it/s] 28% 55/196 [00:14<00:36,  3.84it/s] 29% 56/196 [00:14<00:36,  3.85it/s] 29% 57/196 [00:14<00:36,  3.86it/s] 30% 58/196 [00:14<00:35,  3.86it/s] 30% 59/196 [00:15<00:35,  3.85it/s] 31% 60/196 [00:15<00:35,  3.86it/s] 31% 61/196 [00:15<00:34,  3.86it/s] 32% 62/196 [00:16<00:34,  3.86it/s] 32% 63/196 [00:16<00:34,  3.84it/s] 33% 64/196 [00:16<00:34,  3.84it/s] 33% 65/196 [00:16<00:34,  3.85it/s] 34% 66/196 [00:17<00:33,  3.84it/s] 34% 67/196 [00:17<00:33,  3.85it/s] 35% 68/196 [00:17<00:33,  3.85it/s] 35% 69/196 [00:17<00:32,  3.86it/s] 36% 70/196 [00:18<00:32,  3.87it/s] 36% 71/196 [00:18<00:32,  3.88it/s] 37% 72/196 [00:18<00:31,  3.90it/s] 37% 73/196 [00:18<00:31,  3.91it/s] 38% 74/196 [00:19<00:31,  3.90it/s] 38% 75/196 [00:19<00:31,  3.89it/s] 39% 76/196 [00:19<00:30,  3.88it/s] 39% 77/196 [00:19<00:30,  3.88it/s] 40% 78/196 [00:20<00:30,  3.87it/s] 40% 79/196 [00:20<00:30,  3.87it/s] 41% 80/196 [00:20<00:30,  3.85it/s] 41% 81/196 [00:20<00:29,  3.84it/s] 42% 82/196 [00:21<00:29,  3.84it/s] 42% 83/196 [00:21<00:29,  3.84it/s] 43% 84/196 [00:21<00:29,  3.85it/s] 43% 85/196 [00:21<00:28,  3.85it/s] 44% 86/196 [00:22<00:28,  3.86it/s] 44% 87/196 [00:22<00:28,  3.86it/s] 45% 88/196 [00:22<00:27,  3.86it/s] 45% 89/196 [00:23<00:27,  3.87it/s] 46% 90/196 [00:23<00:27,  3.88it/s] 46% 91/196 [00:23<00:27,  3.88it/s] 47% 92/196 [00:23<00:26,  3.89it/s] 47% 93/196 [00:24<00:26,  3.90it/s] 48% 94/196 [00:24<00:26,  3.90it/s] 48% 95/196 [00:24<00:25,  3.91it/s] 49% 96/196 [00:24<00:25,  3.89it/s] 49% 97/196 [00:25<00:25,  3.86it/s] 50% 98/196 [00:25<00:25,  3.84it/s] 51% 99/196 [00:25<00:25,  3.83it/s] 51% 100/196 [00:25<00:25,  3.84it/s] 52% 101/196 [00:26<00:24,  3.85it/s] 52% 102/196 [00:26<00:24,  3.86it/s] 53% 103/196 [00:26<00:24,  3.87it/s] 53% 104/196 [00:26<00:23,  3.90it/s] 54% 105/196 [00:27<00:23,  3.91it/s] 54% 106/196 [00:27<00:22,  3.92it/s] 55% 107/196 [00:27<00:22,  3.92it/s] 55% 108/196 [00:27<00:22,  3.93it/s] 56% 109/196 [00:28<00:22,  3.94it/s] 56% 110/196 [00:28<00:21,  3.98it/s] 57% 111/196 [00:28<00:21,  4.01it/s] 57% 112/196 [00:28<00:20,  4.03it/s] 58% 113/196 [00:29<00:20,  4.03it/s] 58% 114/196 [00:29<00:20,  4.01it/s] 59% 115/196 [00:29<00:20,  3.99it/s] 59% 116/196 [00:29<00:20,  3.94it/s] 60% 117/196 [00:30<00:20,  3.91it/s] 60% 118/196 [00:30<00:20,  3.88it/s] 61% 119/196 [00:30<00:19,  3.86it/s] 61% 120/196 [00:30<00:19,  3.85it/s] 62% 121/196 [00:31<00:19,  3.86it/s] 62% 122/196 [00:31<00:19,  3.85it/s] 63% 123/196 [00:31<00:19,  3.84it/s] 63% 124/196 [00:31<00:18,  3.83it/s] 64% 125/196 [00:32<00:18,  3.84it/s] 64% 126/196 [00:32<00:18,  3.84it/s] 65% 127/196 [00:32<00:17,  3.84it/s] 65% 128/196 [00:33<00:17,  3.85it/s] 66% 129/196 [00:33<00:17,  3.86it/s] 66% 130/196 [00:33<00:17,  3.87it/s] 67% 131/196 [00:33<00:16,  3.87it/s] 67% 132/196 [00:34<00:16,  3.86it/s] 68% 133/196 [00:34<00:16,  3.87it/s] 68% 134/196 [00:34<00:16,  3.87it/s] 69% 135/196 [00:34<00:15,  3.87it/s] 69% 136/196 [00:35<00:15,  3.88it/s] 70% 137/196 [00:35<00:15,  3.90it/s] 70% 138/196 [00:35<00:14,  3.92it/s] 71% 139/196 [00:35<00:14,  3.95it/s] 71% 140/196 [00:36<00:14,  3.97it/s] 72% 141/196 [00:36<00:13,  3.97it/s] 72% 142/196 [00:36<00:13,  3.96it/s] 73% 143/196 [00:36<00:13,  3.93it/s] 73% 144/196 [00:37<00:13,  3.92it/s] 74% 145/196 [00:37<00:13,  3.91it/s] 74% 146/196 [00:37<00:12,  3.90it/s] 75% 147/196 [00:37<00:12,  3.88it/s] 76% 148/196 [00:38<00:12,  3.86it/s] 76% 149/196 [00:38<00:12,  3.84it/s] 77% 150/196 [00:38<00:11,  3.83it/s] 77% 151/196 [00:38<00:11,  3.83it/s] 78% 152/196 [00:39<00:11,  3.83it/s] 78% 153/196 [00:39<00:11,  3.83it/s] 79% 154/196 [00:39<00:10,  3.85it/s] 79% 155/196 [00:39<00:10,  3.85it/s] 80% 156/196 [00:40<00:10,  3.86it/s] 80% 157/196 [00:40<00:10,  3.86it/s] 81% 158/196 [00:40<00:09,  3.86it/s] 81% 159/196 [00:41<00:09,  3.86it/s] 82% 160/196 [00:41<00:09,  3.87it/s] 82% 161/196 [00:41<00:09,  3.87it/s] 83% 162/196 [00:41<00:08,  3.87it/s] 83% 163/196 [00:42<00:08,  3.86it/s] 84% 164/196 [00:42<00:08,  3.85it/s] 84% 165/196 [00:42<00:08,  3.85it/s] 85% 166/196 [00:42<00:07,  3.82it/s] 85% 167/196 [00:43<00:07,  3.82it/s] 86% 168/196 [00:43<00:07,  3.81it/s] 86% 169/196 [00:43<00:07,  3.81it/s] 87% 170/196 [00:43<00:06,  3.80it/s] 87% 171/196 [00:44<00:06,  3.80it/s] 88% 172/196 [00:44<00:06,  3.81it/s] 88% 173/196 [00:44<00:06,  3.82it/s] 89% 174/196 [00:44<00:05,  3.81it/s] 89% 175/196 [00:45<00:05,  3.81it/s] 90% 176/196 [00:45<00:05,  3.81it/s] 90% 177/196 [00:45<00:04,  3.82it/s] 91% 178/196 [00:45<00:04,  3.80it/s] 91% 179/196 [00:46<00:04,  3.81it/s] 92% 180/196 [00:46<00:04,  3.82it/s] 92% 181/196 [00:46<00:03,  3.83it/s] 93% 182/196 [00:47<00:03,  3.82it/s] 93% 183/196 [00:47<00:03,  3.83it/s] 94% 184/196 [00:47<00:03,  3.83it/s] 94% 185/196 [00:47<00:02,  3.84it/s] 95% 186/196 [00:48<00:02,  3.84it/s] 95% 187/196 [00:48<00:02,  3.84it/s] 96% 188/196 [00:48<00:02,  3.84it/s] 96% 189/196 [00:48<00:01,  3.84it/s] 97% 190/196 [00:49<00:01,  3.84it/s] 97% 191/196 [00:49<00:01,  3.85it/s] 98% 192/196 [00:49<00:01,  3.86it/s] 98% 193/196 [00:49<00:00,  3.87it/s] 99% 194/196 [00:50<00:00,  3.87it/s] 99% 195/196 [00:50<00:00,  3.86it/s]100% 196/196 [00:50<00:00,  3.85it/s]100% 196/196 [00:54<00:00,  3.61it/s]

@@ -220,7 +220,7 @@ def inference_video_based_model(model, extracted_results, with_track_id=True, ca
                 bbox ((4, ) or (5, )): left, right, top, bottom, [score]
         with_track_id: If True, the element in extracted_results is expected to
             contain "track_id", which will be used to gather the feature
-            sequence of a person from multiple frames. Otherwise, the extracted
+            sequence of An animal from multiple frames. Otherwise, the extracted
             results in each frame are expected to have a consistent number and
             order of identities. Default is True.
         causal (bool): If True, the target frame is the first frame in
@@ -462,7 +462,7 @@ def _collate_feature_sequence(extracted_features, with_track_id=True, target_fra
                     ``with_track_id==True```
         with_track_id (bool): If True, the element in pose_results is expected
             to contain "track_id", which will be used to gather the pose
-            sequence of a person from multiple frames. Otherwise, the pose
+            sequence of An animal from multiple frames. Otherwise, the pose
             results in each frame are expected to have a consistent number and
             order of identities. Default is True.
         target_frame (int): The index of the target frame. Default: 0.

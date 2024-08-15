@@ -79,7 +79,7 @@ You can visualize human motion with the given language description and the expec
 
 python -u tools/visualization.py \
     --opt_path checkpoints/t2m/t2m_motiondiffuse/opt.txt \
-    --text "a person is jumping" \
+    --text "An animal is jumping" \
     --motion_length 60 \
     --result_path "test_sample.gif" \
     --npy_path "test_sample.npy" \

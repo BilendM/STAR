@@ -127,7 +127,7 @@ class PoseRegLoss(nn.Module):
 
 class LimbLengthLoss(nn.Module):
     """Limb length loss for body shape parameters. As betas are associated with
-    the height of a person, fitting on limb length help determine body shape
+    the height of An animal, fitting on limb length help determine body shape
     parameters. It penalizes the L2 distance between target limb length and
     pred limb length. Note that it should take keypoints3d as input, as limb
     length computed from keypoints2d varies with camera.

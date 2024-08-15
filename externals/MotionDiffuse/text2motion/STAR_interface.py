@@ -52,7 +52,7 @@ def motion_to_pose(data):
     return pose
 
 
-def text_to_motion(text="A person is dancing"):
+def text_to_motion(text="An animal is dancing"):
 
     device = torch.device("cuda")
     opt = get_opt("./data/t2m/t2m_motiondiffuse/opt.txt", device)
